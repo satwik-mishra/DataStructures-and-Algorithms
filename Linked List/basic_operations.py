@@ -52,6 +52,15 @@ class SinglyLinkedList:
             slow=slow.next
             fast=fast.next.next
         print("The middle node of linked list is (optimal):",slow.data)
+    def Reverse_LinkedList_Optimal(self):
+        temp=self.head
+        prev=None
+        while(temp is not None):
+            front=temp.next
+            temp.next=prev
+            prev=temp
+            temp=front
+        print("new head of LinkedList is :",prev.data)
 obj=SinglyLinkedList()
 obj.InsertAtAnyPosition(10,0)
 obj.InsertAtAnyPosition(20,1)
@@ -63,6 +72,7 @@ obj.PrintLL()
 obj.CountLengthOfLL()
 obj.find_middle_brute()
 obj.find_middle_optimal()
+obj.Reverse_LinkedList_Optimal()
         
             
     
