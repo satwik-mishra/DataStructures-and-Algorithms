@@ -3,8 +3,8 @@ class Node:
         self.data=info
         self.next=next
 class SinglyLinkedList:
-    def __init__(self,head=None):
-        self.head=head
+    def __init__(self):
+        self.head=None
         
     # INSERT AT END
     def InsertAtEnd(self,value):
