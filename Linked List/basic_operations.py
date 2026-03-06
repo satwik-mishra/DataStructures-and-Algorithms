@@ -34,14 +34,35 @@ class SinglyLinkedList:
             print(current.data,"->",end=' ')
             current=current.next
         print("None")
+    def find_middle_brute(self):
+        temp=self.head
+        count=0
+        while(temp.next!=None):
+            count=count+1
+            temp=temp.next
+        count+=1
+        temp=self.head
+        for i in range(0,count//2):
+            temp=temp.next
+        print("middle node of linked list is (brute) :",temp.data)
+    def find_middle_optimal(self): # slow and fast pointer approach
+        slow=self.head
+        fast=self.head
+        while(fast is not None and fast.next is not None):
+            slow=slow.next
+            fast=fast.next.next
+        print("The middle node of linked list is (optimal):",slow.data)
 obj=SinglyLinkedList()
 obj.InsertAtAnyPosition(10,0)
 obj.InsertAtAnyPosition(20,1)
 obj.InsertAtAnyPosition(30,2)
 obj.InsertAtAnyPosition(40,3)
+obj.InsertAtAnyPosition(50,4)
+obj.InsertAtAnyPosition(60,5)
 obj.PrintLL()
 obj.CountLengthOfLL()
-
+obj.find_middle_brute()
+obj.find_middle_optimal()
         
             
     
