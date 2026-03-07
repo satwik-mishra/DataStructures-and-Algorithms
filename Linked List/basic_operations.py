@@ -61,6 +61,30 @@ class SinglyLinkedList:
             prev=temp
             temp=front
         print("new head of LinkedList is :",prev.data)
+    def cycle_detection_1(self):
+        slow=self.head
+        fast=self.head
+        while(fast is not None and fast.next is not None):
+            slow=slow.next
+            fast=fast.next.next
+            if slow==fast:
+                print("yes there exists a cycle in this list")
+                return
+            print("no, there is no cycle in this list")
+    # def cycle_detection_2(self):
+    #     slow=self.head
+    #     fast=self.head
+    #     while(fast is not None and fast.next is not None):
+    #         slow = slow.next
+    #         fast = fast.next.next
+    #         if slow == fast:
+    #             slow=self.head
+    #             while(slow!=fast):
+    #                 slow=slow.next
+    #                 fast=fast.next
+    #             return slow
+    #     return None
+            
 obj=SinglyLinkedList()
 obj.InsertAtAnyPosition(10,0)
 obj.InsertAtAnyPosition(20,1)
@@ -73,6 +97,8 @@ obj.CountLengthOfLL()
 obj.find_middle_brute()
 obj.find_middle_optimal()
 obj.Reverse_LinkedList_Optimal()
+obj.cycle_detection_1()
+# obj.cycle_detection_2()
         
             
     
