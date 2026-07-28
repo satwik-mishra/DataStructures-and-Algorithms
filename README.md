@@ -86,3 +86,19 @@ If you find this repository helpful, consider giving it a **⭐ Star**. It motiv
 Feel free to connect with me on GitHub and follow my DSA journey.
 
 Happy Coding! 🚀
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/satwik-mishra/DataStructures-and-Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Two Pointers
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/satwik-mishra/DataStructures-and-Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/satwik-mishra/DataStructures-and-Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+<!---LeetCode Topics End-->
