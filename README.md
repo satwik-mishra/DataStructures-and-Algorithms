@@ -101,9 +101,18 @@ Happy Coding! 🚀
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/satwik-mishra/DataStructures-and-Algorithms/tree/master/0069-sqrtx) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/satwik-mishra/DataStructures-and-Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## String
 |  |
 | ------- |
 | [0345-reverse-vowels-of-a-string](https://github.com/satwik-mishra/DataStructures-and-Algorithms/tree/master/0345-reverse-vowels-of-a-string) |
+## Math
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/satwik-mishra/DataStructures-and-Algorithms/tree/master/0069-sqrtx) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/satwik-mishra/DataStructures-and-Algorithms/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
